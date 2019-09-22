@@ -1,0 +1,14 @@
+adminUser:
+  password: vault:jx-aps-consumer-10arc/adminUser:password
+  username: admin
+dashboardAuthID: vault:jx-aps-consumer-10arc:dashboardAuthID
+dashboardAuthOrg: arcalos-dashboard
+dashboardAuthSecret: vault:jx-aps-consumer-10arc:dashboardAuthSecret
+dashboardGrpchost: dex.jx
+enableDocker: false
+pipelineUser:
+  email: jenkins-x@googlegroups.com
+  token: vault:jx-aps-consumer-10arc/pipelineUser:token
+  username: jenkins-x-bot-test
+prow:
+  hmacToken: vault:jx-aps-consumer-10arc/prow:hmacToken
